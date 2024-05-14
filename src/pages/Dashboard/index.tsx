@@ -1,3 +1,9 @@
-export default function Dashboard(props) {
-  return <div>dashboard</div>;
+import NavBar from '../../components/NavBar';
+
+export default function Dashboard() {
+  return (
+    <div>
+      <NavBar />
+    </div>
+  );
 }
